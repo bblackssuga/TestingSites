@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Checks sites">
+
+    <test name = "Test site">
+        <classes>
+            <class name = "Tests.TestRozetka" />
+        </classes>
+    </test>
+
+    <test name = "Test site 2">
+        <classes>
+            <class name = "Tests.TestProm" />
+        </classes>
+    </test>
+
+    <test name = "Test site 3">
+        <classes>
+            <class name = "Tests.TestFoxtrot" />
+        </classes>
+    </test>
+
+    <test name = "Test site 4">
+        <classes>
+            <class name = "Tests.TestNewBalance" />
+        </classes>
+    </test>
+
+    <test name = "Test site 5">
+        <classes>
+            <class name = "Tests.TestYakaboo" />
+        </classes>
+    </test>
+
+</suite>
